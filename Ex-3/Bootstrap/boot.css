@@ -1,0 +1,79 @@
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: :100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font: size 25px;
+    font-weight: 800;
+    color: green !important;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(boot.avif);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home{
+    font-size:larger;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+#home p{
+    font-size: 18px;
+    color:#fff
+}
+#home .input-group{
+    width:40%;
+    height:45px;
+}
+.signin{
+    background-color: green !important;
+    color: white !important;
+
+}
+#about{
+    background: skyblue;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+#product{
+    flex-direction: column;
+    background: violet;
+}
+#contact{
+    flex-direction: column;
+    background: brown;
+}
+#forms{
+    flex-direction: column;
+}
